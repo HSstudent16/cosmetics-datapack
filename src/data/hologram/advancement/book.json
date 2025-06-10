@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "has_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "predicates": {
+              "written_book_content": {
+                "title": "Holograms"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "hologram:handle_book_adv"
+  }
+}

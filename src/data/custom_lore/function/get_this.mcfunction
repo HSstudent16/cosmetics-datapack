@@ -1,0 +1,1 @@
+$data modify storage custom_lore:book thisComponent set from storage custom_lore:book output[$(index)]

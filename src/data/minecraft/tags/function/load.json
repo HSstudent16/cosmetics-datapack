@@ -1,0 +1,14 @@
+{
+  "values": [
+    "hat:init",
+    "sit:init",
+    "custom_model:init",
+    "custom_name:init",
+    "custom_lore:init",
+    "hologram:init",
+    "lib:common/init",
+    "lib:markup/init",
+    "permissions:init"
+  ],
+  "replace": false
+}

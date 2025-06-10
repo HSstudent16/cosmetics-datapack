@@ -1,0 +1,2 @@
+$execute store success score #custom_name.nomatch var run data modify storage custom_name:swap char set string storage custom_name:book output[$(index)].text 0 1
+$execute if score #custom_name.nomatch var matches 0 run data modify storage custom_name:book output[$(index)].text set string storage custom_name:book output[$(index)].text 1

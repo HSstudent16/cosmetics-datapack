@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "lectern_interact": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "block_state_property",
+            "block": "minecraft:lectern"
+          },
+          {
+            "condition": "match_tool",
+            "predicate": {
+              "items": ["minecraft:writable_book", "minecraft:written_book"],
+              "components": {
+                "custom_name": "HOLOGRAM"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "hologram:on_interact"
+  }
+}

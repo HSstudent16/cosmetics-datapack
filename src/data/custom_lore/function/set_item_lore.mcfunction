@@ -1,0 +1,1 @@
+$item modify entity @s weapon.mainhand {function:"minecraft:set_lore",lore:$(chainList),mode:"replace_all"}

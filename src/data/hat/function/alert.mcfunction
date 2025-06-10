@@ -1,0 +1,1 @@
+$tellraw @s {text:"You are now wearing ",italic:true,color:gray,extra:[$(hat_name),{text:"!",italic:true,bold:false,obfuscate:false,color:gray}]}

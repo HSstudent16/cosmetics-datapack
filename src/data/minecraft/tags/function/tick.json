@@ -1,0 +1,11 @@
+{
+  "values": [
+    "hat:tick",
+    "sit:tick",
+    "custom_model:tick",
+    "custom_name:tick",
+    "custom_lore:tick",
+    "hologram:tick"
+  ],
+  "replace": false
+}

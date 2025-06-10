@@ -1,0 +1,679 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_book_cover",
+              "author": "HMWBTE",
+              "title": "Holograms v0.0.5a",
+              "generation": 0
+            },
+            {
+              "function": "set_written_book_pages",
+              "mode": "replace_all",
+              "pages": [
+                {
+                  "text": "===================\n\n",
+                  "extra": [
+                    {
+                      "text": "       Hologram\n    Configurator\n\n",
+                      "color": "dark_green",
+                      "bold": true
+                    },
+                    {
+                      "text": "===================\n\n\nAuthor(s): ",
+                      "color":"black",
+                      "bold":false
+                    },
+                    {
+                      "text": "HMWBTE\n",
+                      "color": "dark_aqua"
+                    },
+                    {
+                      "text": "Version: ",
+                      "color": "black"
+                    },
+                    {
+                      "text": "0.0.5a",
+                      "color": "blue"
+                    }
+                  ]
+                },
+                {
+                  "text": "== ",
+                  "extra": [
+                    {
+                      "text": "Display Options ",
+                      "color": "dark_green"
+                    },
+                    {
+                      "text": "===\n\n\n   ",
+                      "color": "black"
+                    },
+                    {
+                      "text": ">>> ",
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "Alignment",
+                      "color": "black"
+                    },
+                    {
+                      "text": " <<<\n\n  ",
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "left",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 36"
+                      }
+                    },
+                    {
+                      "text": "   "
+                    },
+                    {
+                      "text": "center",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 37"
+                      }
+                    },
+                    {
+                      "text": "   "
+                    },
+                    {
+                      "text": "right",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 38"
+                      }
+                    },
+                    {
+                      "text": "\n\n\n      "
+                    },
+                    {
+                      "text": ">>> ",
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "Width",
+                      "color": "black"
+                    },
+                    {
+                      "text": " <<<\n\n  ",
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "-10",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 11"
+                      }
+                    },
+                    {
+                      "text": "   "
+                    },
+                    {
+                      "text": "Reset",
+                      "color": "gold",
+                      "bold": true,
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 12"
+                      }
+                    },
+                    {
+                      "text": "   "
+                    },
+                    {
+                      "text": "+10",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 13"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "== ",
+                  "extra": [
+                    {
+                      "text": "Display Options ",
+                      "color": "dark_green"
+                    },
+                    {
+                      "text": "===\n\n\n   "
+                    },
+                    {
+                      "text": ">>> ",
+                      "bold": true,
+                      "color": "dark_red"
+                    },
+                    {
+                      "text": "Billboard",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "This makes the text rotate to face players"
+                        }
+                      }
+                    },
+                    {
+                      "text": " <<<\n\n  ",
+                      "bold": true,
+                      "color": "dark_red"
+                    },
+                    {
+                      "text": "Fixed",
+                      "color": "dark_aqua",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Prevents all rotation"
+                        }
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 1"
+                      }
+                    },
+                    {
+                      "text": "     "
+                    },
+                    {
+                      "text": "Horizontal",
+                      "color": "dark_aqua",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Text may rotate up / down to face a player"
+                        }
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 2"
+                      }
+                    },
+                    {
+                      "text": "\n   "
+                    },
+                    {
+                      "text": "Free",
+                      "color": "dark_aqua",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Text may rotate freely to face a player"
+                        }
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 4"
+                      }
+                    },
+                    {
+                      "text": "      "
+                    },
+                    {
+                      "text": "Vertical",
+                      "color": "dark_aqua",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Text may rotate left / right to face a player"
+                        }
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 3"
+                      }
+                    },
+                    {
+                      "text": "\n\n\n"
+                    },
+                    {
+                      "text": ">",
+                      "bold": true,
+                      "color": "dark_red"
+                    },
+                    {
+                      "text": " See-thru",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "When on, entites, signs & chests can bee seen through the hologram"
+                        }
+                      }
+                    },
+                    {
+                      "text": "   Shadow "
+                    },
+                    {
+                      "text": "<\n\n     ",
+                      "bold": true,
+                      "color": "dark_red"
+                    },
+                    {
+                      "text": "on",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 42"
+                      }
+                    },
+                    {
+                      "text": "          "
+                    },
+                    {
+                      "text": "on",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 8"
+                      }
+                    },
+                    {
+                      "text": "\n      "
+                    },
+                    {
+                      "text": "off",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 41"
+                      }
+                    },
+                    {
+                      "text": "         "
+                    },
+                    {
+                      "text": "off",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 9"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "= ",
+                  "extra": [
+                    {
+                      "text": "Position & Rotation ",
+                      "color": "dark_green"
+                    },
+                    {
+                      "text": "=\n\n\n    "
+                    },
+                    {
+                      "text": ">>> ",
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "Position"
+                    },
+                    {
+                      "text": " <<<\n\n",
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "-10",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 17"
+                      }
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "text": "-1",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 18"
+                      }
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "text": "-.1",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 19"
+                      }
+                    },
+                    {
+                      "text": "  |   "
+                    },
+                    {
+                      "text": "X",
+                      "color": "dark_gray",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 14"
+                      }
+                    },
+                    {
+                      "text": "  "
+                    },
+                    {
+                      "text": "Y",
+                      "color": "dark_gray",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 15"
+                      }
+                    },
+                    {
+                      "text": "  "
+                    },
+                    {
+                      "text": "Z",
+                      "color": "dark_gray",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 16"
+                      }
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "text": "+10",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 23"
+                      }
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "text": "+1",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 22"
+                      }
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "text": "+.1",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 21"
+                      }
+                    },
+                    {
+                      "text": "  |   "
+                    },
+                    {
+                      "text": "Reset",
+                      "color": "gold",
+                      "bold": true,
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 20"
+                      }
+                    },
+                    {
+                      "text": "\n\n\n   >>> ",
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "Rotation"
+                    },
+                    {
+                      "text": " <<<\n\n",
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "-45",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 26"
+                      }
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "text": "-15",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 27"
+                      }
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "text": "-1",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 28"
+                      }
+                    },
+                    {
+                      "text": " | "
+                    },
+                    {
+                      "text": "Pitch",
+                      "color": "dark_gray",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 24"
+                      }
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "text": "Yaw",
+                      "color": "dark_gray",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 25"
+                      }
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "text": "+45",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 32"
+                      }
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "text": "+15",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 31"
+                      }
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "text": "+1",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 30"
+                      }
+                    },
+                    {
+                      "text": " |   "
+                    },
+                    {
+                      "text": "Reset",
+                      "color": "gold",
+                      "bold": true,
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 29"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "= ",
+                  "extra": [
+                    {
+                      "text": "View Dist. & Scale ",
+                      "color": "dark_green"
+                    },
+                    {
+                      "text": "==\n\n\n"
+                    },
+                    {
+                      "text": ">>> ",
+                      "bold": true,
+                      "color": "dark_red"
+                    },
+                    {
+                      "text": "View Distance",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "This controls how far away the hologram can be seen"
+                        }
+                      }
+                    },
+                    {
+                      "text": " <<<",
+                      "bold": true,
+                      "color": "dark_red"
+                    },
+                    {
+                      "text": "\n\n  "
+                    },
+                    {
+                      "text": "-10%",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 5"
+                      }
+                    },
+                    {
+                      "text": "  "
+                    },
+                    {
+                      "text": "Reset",
+                      "color": "gold",
+                      "bold": true,
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 6"
+                      }
+                    },
+                    {
+                      "text": "  "
+                    },
+                    {
+                      "text": "+10%",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 7"
+                      }
+                    },
+                    {
+                      "text": "\n\n\n     "
+                    },
+                    {
+                      "text": ">>> ",
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "Scale"
+                    },
+                    {
+                      "text": " <<<",
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n\n  "
+                    },
+                    {
+                      "text": "-10%",
+                      "color": "dark_purple",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 33"
+                      }
+                    },
+                    {
+                      "text": "  "
+                    },
+                    {
+                      "text": "Reset",
+                      "color": "gold",
+                      "bold": true,
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 34"
+                      }
+                    },
+                    {
+                      "text": "  "
+                    },
+                    {
+                      "text": "+10%",
+                      "color": "dark_aqua",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "trigger edit_hologram set 35"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
