@@ -1,0 +1,25 @@
+{
+  "values": [
+    "minecraft:chiseled_bookshelf",
+    "minecraft:chiseled_copper",
+    "minecraft:waxed_chiseled_copper",
+    "minecraft:exposed_chiseled_copper",
+    "minecraft:waxed_exposed_chiseled_copper",
+    "minecraft:weathered_chiseled_copper",
+    "minecraft:waxed_weathered_chiseled_copper",
+    "minecraft:oxidized_chiseled_copper",
+    "minecraft:waxed_oxidized_chiseled_copper",
+    "minecraft:chiseled_deepslate",
+    "minecraft:chiseled_nether_bricks",
+    "minecraft:chiseled_polished_blackstone",
+    "minecraft:chiseled_quartz_block",
+    "minecraft:chiseled_red_sandstone",
+    "minecraft:chiseled_resin_bricks",
+    "minecraft:chiseled_sandstone",
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:chiseled_tuff",
+    "minecraft:chiseled_tuff_bricks",
+    "minecraft:purpur_pillar"
+  ],
+  "replace": false
+}

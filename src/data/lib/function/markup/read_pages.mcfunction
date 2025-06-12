@@ -30,6 +30,3 @@ data modify storage lib:markup ast set value []
 
 # Begin the loop!
 function lib:markup/loop/page
-
-# Write any trailing data after the loop
-function lib:markup/finalise_component with storage lib:markup
