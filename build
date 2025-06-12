@@ -1,4 +1,6 @@
 #!/bin/bash
-version=0.1.0
+version=0.1.2
 
-zip -r cosmetics-v$version\_1.21.5.zip src/data src/pack.mcmeta src/credits.txt
+cd ./src
+rm ../cosmetics-v*.zip
+zip -rq ../cosmetics-v$version\_1.21.5.zip *
