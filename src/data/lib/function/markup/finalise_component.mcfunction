@@ -1,6 +1,3 @@
-# Ignore if length is 0
-execute if score #lib.markup.slice.begin var >= #lib.markup.slice.beforeEnd var run return 0
-
 # Write text settings to current component
 # Color is already written to storage, so it doesn't need to be here
 execute store result storage lib:markup component.bold byte 1 run scoreboard players get #lib.markup.bold var
