@@ -15,3 +15,17 @@
 > Changes
 
   None
+
+# v0.1.3 (alpha)
+
+> Bug fixes
+
+ - FIX Markup parsing doesn't handle new line at the beginning of a page correctly
+
+> Added features
+
+ - None
+
+> Changes
+
+ - None
