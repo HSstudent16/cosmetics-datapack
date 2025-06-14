@@ -1,5 +1,5 @@
 # If Reading words (length > 0), finish the word
-execute if score #lib.markup.slice.begin var >= #lib.markup.slice.beforeEnd var if score #lib.markup.parsemode var matches 0 run function lib:markup/finalise_component with storage lib:markup
+execute if score #lib.markup.slice.begin var < #lib.markup.slice.beforeEnd var if score #lib.markup.parsemode var matches 0 run function lib:markup/finalise_component with storage lib:markup
 # Else if reading a keyword match the name & adjust any settings
 execute if score #lib.markup.parsemode var matches 1 run function lib:markup/parse_keyword
 
